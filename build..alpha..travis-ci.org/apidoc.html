@@ -1,0 +1,304 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/Dogfalo/materialize#readme"
+
+    >materialize-css (v0.98.1)</a>
+</h1>
+<h4>Builds Materialize distribution packages</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.materialize-css">module materialize-css</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">materialize-css.</span>prism</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.materialize-css.prism">module materialize-css.prism</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.materialize-css.prism.Token">
+            function <span class="apidocSignatureSpan">materialize-css.prism.</span>Token
+            <span class="apidocSignatureSpan">(e, t, n)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.materialize-css.prism.highlight">
+            function <span class="apidocSignatureSpan">materialize-css.prism.</span>highlight
+            <span class="apidocSignatureSpan">(e, a, r)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.materialize-css.prism.highlightAll">
+            function <span class="apidocSignatureSpan">materialize-css.prism.</span>highlightAll
+            <span class="apidocSignatureSpan">(e, n)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.materialize-css.prism.highlightElement">
+            function <span class="apidocSignatureSpan">materialize-css.prism.</span>highlightElement
+            <span class="apidocSignatureSpan">(a, r, i)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.materialize-css.prism.tokenize">
+            function <span class="apidocSignatureSpan">materialize-css.prism.</span>tokenize
+            <span class="apidocSignatureSpan">(e, n)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">materialize-css.prism.</span>hooks</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">materialize-css.prism.</span>languages</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">materialize-css.prism.</span>util</span>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.materialize-css" id="apidoc.module.materialize-css">module materialize-css</a></h1>
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.materialize-css.prism" id="apidoc.module.materialize-css.prism">module materialize-css.prism</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.materialize-css.prism.Token" id="apidoc.element.materialize-css.prism.Token">
+        function <span class="apidocSignatureSpan">materialize-css.prism.</span>Token
+        <span class="apidocSignatureSpan">(e, t, n)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Token = function (e, t, n){this.type=e,this.content=t,this.alias=n}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.materialize-css.prism.highlight" id="apidoc.element.materialize-css.prism.highlight">
+        function <span class="apidocSignatureSpan">materialize-css.prism.</span>highlight
+        <span class="apidocSignatureSpan">(e, a, r)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">highlight = function (e, a, r){var i=t.tokenize(e,a);return n.stringify(t.util.encode(i),r)}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+
+
+
+
+/* http://prismjs.com/download.html?themes=prism&#x26;languages=markup+css+clike+javascript+scss+bash */
+self=&#x22;undefined&#x22;!=typeof window?window:&#x22;undefined&#x22;!=typeof WorkerGlobalScope&#x26;&#x26;self instanceof WorkerGlobalScope
+?self:{};var Prism=function(){var e=/\blang(?:uage)?-(?!\*)(\w+)\b/i,t=self.Prism={util:{encode:function(e){return e instanceof n?new n(e.type,t.util.encode(e.content),e.alias):&#x22;Array&#x22;===t.util.type(e)?e.map(t.util.encode):e.replace(/&#x26;/g,&#x22;&#x26;amp;&#x22;).replace(/&#x3c;/g,&#x22;&#x26;lt;&#x22;).replace(/\u00a0/g,&#x22; &#x22;)},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},clone:function(e){var n=t.util.type(e);switch(n){case&#x22;Object&#x22;:var a={};for(var r in e)e.hasOwnProperty(r)&#x26;&#x26;(a[r]=t.util.clone(e[r]));return a;case&#x22;Array&#x22;:return e.slice()}return e}},languages:{extend:function(e,n){var a=t.util.clone(t.languages[e]);for(var r in n)a[r]=n[r];return a},insertBefore:function(e,n,a,r){r=r||t.languages;var i=r[e];if(2==arguments.length){a=arguments[1];for(var l in a)a.hasOwnProperty(l)&#x26;&#x26;(i[l]=a[l]);return i}var s={};for(var o in i)if(i.hasOwnProperty(o)){if(o==n)for(var l in a)a.hasOwnProperty(l)&#x26;&#x26;(s[l]=a[l]);s[o]=i[o]}return t.languages.DFS(t.languages,function(t,n){n===r[e]&#x26;&#x26;t!=e&#x26;&#x26;(this[t]=s)}),r[e]=s},DFS:function(e,n,a){for(var r in e)e.hasOwnProperty(r)&#x26;&#x26;(n.call(e,r,e[r],a||r),&#x22;Object&#x22;===t.util.type(e[r])?t.languages.DFS(e[r],n):&#x22;Array&#x22;===t.util.type(e[r])&#x26;&#x26;t.languages.DFS(e[r],n,r))}},highlightAll:function(e,n){for(var a,r=document.querySelectorAll(&#x27;code[class*=&#x22;language-&#x22;], [class*=&#x22;language-&#x22;] code, code[class*=&#x22;lang-&#x22;], [class*=&#x22;lang-&#x22;] code&#x27;),i=0;a=r[i++];)t.highlightElement(a,e===!0,n)},highlightElement:function(a,r,i){for(var l,s,o=a;o&#x26;&#x26;!e.test(o.className);)o=o.parentNode;if(o&#x26;&#x26;(l=(o.className.match(e)||[,&#x22;&#x22;])[1],s=t.languages[l]),s){a.className=a.className.replace(e,&#x22;&#x22;).replace(/\s+/g,&#x22; &#x22;)+&#x22; language-&#x22;+l,o=a.parentNode,/pre/i.test(o.nodeName)&#x26;&#x26;(o.className=o.className.replace(e,&#x22;&#x22;).replace(/\s+/g,&#x22; &#x22;)+&#x22; language-&#x22;+l);var g=a.textContent;if(g){var u={element:a,language:l,grammar:s,code:g};if(t.hooks.run(&#x22;before-highlight&#x22;,u),r&#x26;&#x26;self.Worker){var c=new Worker(t.filename);c.onmessage=function(e){u.highlightedCode=n.stringify(JSON.parse(e.data),l),t.hooks.run(&#x22;before-insert&#x22;,u),u.element.innerHTML=u.highlightedCode,i&#x26;&#x26;i.call(u.element),t.hooks.run(&#x22;after-highlight&#x22;,u)},c.postMessage(JSON.stringify({language:u.language,code:u.code}))}else u.highlightedCode=t.<span class="apidocCodeKeywordSpan">highlight</span>(u.code,u.grammar,u.language),t.hooks.run(&#x22;before-insert&#x22;,u),u.element.innerHTML=u.highlightedCode,i&#x26;&#x26;i.call(a),t.hooks.run(&#x22;after-highlight&#x22;,u)}}},highlight:function(e,a,r){var i=t.tokenize(e,a);return n.stringify(t.util.encode(i),r)},tokenize:function(e,n){var a=t.Token,r=[e],i=n.rest;if(i){for(var l in i)n[l]=i[l];delete n.rest}e:for(var l in n)if(n.hasOwnProperty(l)&#x26;&#x26;n[l]){var s=n[l];s=&#x22;Array&#x22;===t.util.type(s)?s:[s];for(var o=0;o&#x3c;s.length;++o){var g=s[o],u=g.inside,c=!!g.lookbehind,f=0,h=g.alias;g=g.pattern||g;for(var p=0;p&#x3c;r.length;p++){var d=r[p];if(r.length&#x3e;e.length)break e;if(!(d instanceof a)){g.lastIndex=0;var m=g.exec(d);if(m){c&#x26;&#x26;(f=m[1].length);var y=m.index-1+f,m=m[0].slice(f),v=m.length,k=y+v,b=d.slice(0,y+1),w=d.slice(k+1),O=[p,1];b&#x26;&#x26;O.push(b);var N=new a(l,u?t.tokenize(m,u):m,h);O.push(N),w&#x26;&#x26;O.push(w),Array.prototype.splice.apply(r,O)}}}}}return r},hooks:{all:{},add:function(e,n){var a=t.hooks.all;a[e]=a[e]||[],a[e].push(n)},run:function(e,n){var a=t.hooks.all[e];if(a&#x26;&#x26;a.length)for(var r,i=0;r=a[i++];)r(n)}}},n=t.Token=function(e,t,n){this.type=e,this.content=t,this.alias=n};if(n.stringify=function(e,a,r){if(&#x22;string&#x22;==typeof e)return e;if(&#x22;[object Array]&#x22;==Object.prototype.toString.call(e))return e.map(function(t){return n.stringify(t,a,e)}).join(&#x22;&#x22;);var i={type:e.type,content:n.stringify(e.content,a,r),tag:&#x22;span&#x22;,classes:[&#x22;token&#x22;,e.type],attributes:{},language:a,parent:r};if(&#x22;comment&#x22;==i.type&#x26;&#x26;(i.attributes.spellcheck=&#x22;true&#x22;),e.alias){var l=&#x22;Array&#x22;===t.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(i.classes,l)}t.hooks.run(&#x22;wrap&#x22;,i);var s=&#x22;&#x22;;for(var o in i.attributes)s+=o+&#x27;=&#x22;&#x27;+(i.attributes[o]||&#x22;&#x22;)+&#x27;&#x22;&#x27;;return&#x22;&#x3c;&#x22;+i.tag+&#x27; class=&#x22;&#x27;+i.classes.join(&#x22; &#x22;)+&#x27;&#x22; &#x27;+s+&#x22;&#x3e;&#x22;+i.content+&#x22;&#x3c;/&#x22;+i.tag+&#x22;&#x3e;&#x22;},!self.document)return self.addEventListener?(self.addEventListener(&#x22;message&#x22;,function(e){var n=JSON.parse(e.data),a=n.language,r=n.code;self.postMessage(JSON.stringify(t.util.encode(t.tokenize(r,t.languages[a])))),self.close()},!1),self.Prism):self.Prism;var a=document.getElementsByTagName(&#x22;script&#x22;);return a=a[a.length-1],a&#x26;&#x26;(t.filename=a.src,document.addEventListener&#x26;&#x26;!a.hasAttribute(&#x22;data-manual&#x22;)&#x26;&#x26;document.addEventListener(&#x22;DOMContentLoaded&#x22;,t.highlightAll)),self.Prism}();&#x22;undefined&#x22;!=typeof module&#x26;&#x26;module.exports&#x26;&#x26;(module.exports=Prism);;
+Prism.languages.markup={comment:/&#x3c;!--[\w\W]*?--&#x3e;/g,prolog:/&#x3c;\?.+?\?&#x3e;/,doctype:/&#x3c;!DOCTYPE.+?&#x3e;/,cdata
+:/&#x3c;!\[CDATA\[[\w\W]*?]]&#x3e;/i,tag:{pattern:/&#x3c;\/?[\w:-]+\s*(?:\s+[\w:-]+(?:=(?:(&#x22;|&#x27;)(\\?[\w\W])*?\1|[^\s&#x27;&#x22;&#x3e;=]+))?\s*)*\/?&#x3e;/gi,inside:{tag:{pattern:/^&#x3c;\/?[\w:-]+/i,inside:{punctuation:/^&#x3c;\/?/,namespace:/^[\w-]+?:/}},&#x22;attr-value&#x22;:{pattern:/=(?:(&#x27;|&#x22;)[\w\W]*?(\1)|[^\s&#x3e;]+)/gi,inside:{punctuation:/=|&#x3e;|&#x22;/g}},punctuation:/\/?&#x3e;/g,&#x22;attr-name&#x22;:{pattern:/[\w:-]+/g,inside:{namespace:/^[\w-]+?:/}}}},entity:/\&#x26;#?[\da-z]{1,8};/gi},Prism.hooks.add(&#x22;wrap&#x22;,function(t){&#x22;entity&#x22;===t.type&#x26;&#x26;(t.attributes.title=t.content.replace(/&#x26;amp;/,&#x22;&#x26;&#x22;))});;
+Prism.languages.css={comment:/\/\*[\w\W]*?\*\//g,atrule:{pattern:/@[\w-]+?.*?(;|(?=\s*{))/gi,inside:{punctuation:/[;:]/g}},url:/
+url\(([&#x22;&#x27;]?).*?\1\)/gi,selector:/[^\{\}\s][^\{\};]*(?=\s*\{)/g,property:/(\b|\B)[\w-]+(?=\s*:)/gi,string:/(&#x22;|&#x27;)(\\?.)*?\1/g,important:/\B!important\b/gi,punctuation:/[\{\};:]/g,&#x22;function&#x22;:/[-a-z0-9]+(?=\()/gi},Prism.languages.markup&#x26;&#x26;(Prism.languages.insertBefore(&#x22;markup&#x22;,&#x22;tag&#x22;,{style:{pattern:/&#x3c;style[\w\W]*?&#x3e;[\w\W]*?&#x3c;\/style&#x3e;/gi,inside:{tag:{pattern:/&#x3c;style[\w\W]*?&#x3e;|&#x3c;\/style&#x3e;/gi,inside:Prism.languages.markup.tag.inside},rest:Prism.languages.css},alias:&#x22;language-css&#x22;}}),Prism.languages.insertBefore(&#x22;inside&#x22;,&#x22;attr-value&#x22;,{&#x22;style-attr&#x22;:{pattern:/\s*style=(&#x22;|&#x27;).+?\1/gi,inside:{&#x22;attr-name&#x22;:{pattern:/^\s*style/gi,inside:Prism.languages.markup.tag.inside},punctuation:/^\s*=\s*[&#x27;&#x22;]|[&#x27;&#x22;]\s*$/,&#x22;attr-value&#x22;:{pattern:/.+/gi,inside:Prism.languages.css}},alias:&#x22;language-css&#x22;}},Prism.languages.markup.tag));;
+Prism.languages.clike={comment:[{pattern:/(^|[^\\])\/\*[\w\W]*?\*\//g,lookbehind:!0},{pattern:/(^|[^\\:])\/\/.*?(\r?\n|$)/g,lookbehind
+:!0}],string:/(&#x22;|&#x27;)(\\?.)*?\1/g,&#x22;class-name&#x22;:{pattern:/((?:(?:class|interface|extends|implements|trait|instanceof|new)\s+)|(?:catch\s+\())[a-z0-9_\.\\]+/gi,lookbehind:!0,inside:{punctuation:/(\.|\\)/}},keyword:/\b(if|else|while|do|for|return|in|instanceof|function|new|try|throw|catch|finally|null|break|continue)\b/g,&#x22;boolean&#x22;:/\b(true|false)\b/g,&#x22;function&#x22;:{pattern:/[a-z0-9_]+\(/gi,inside:{punctuation:/\(/}},number:/\b-?(0x[\dA-Fa-f]+|\d*\.?\d+([Ee]-?\d+)?)\b/g,operator:/[-+]{1,2}|!|&#x3c;=?|&#x3e;=?|={1,3}|&#x26;{1,2}|\|?\||\?|\*|\/|\~|\^|\%/g,ignore:/&#x26;(lt|gt|amp);/gi,punctuation:/[{}[\];(),.:]/g};;
+Prism.languages.javascript=Prism.languages.extend(&#x22;clike&#x22;,{keyword:/\b(break|case|catch|class|const|continue|debugger|
+default|delete|do|else|enum|export|extends|false|finally|for|function|get|if|implements|import|in|instanceof|interface|let|new|null
+|package|private|protected|public|return|set|static|super|switch|this|throw|true|try|typeof|var|void|while|with|yield)\b/g,number:/\b-?(0x[\dA-Fa-f]+|\d*\.?\d+([Ee][+-]?\d+)?|NaN|-?Infinity)\b/g,&#x22;function&#x22;:/(?!\d)[a-z0-9_$]+(?=\()/gi}),Prism.languages.insertBefore(&#x22;javascript&#x22;,&#x22;keyword&#x22;,{regex:{pattern:/(^|[^/])\/(?!\/)(\[.+?]|\\.|[^/\r\n])+\/[gim]{0,3}(?=\s*($|[\r\n,.;})]))/g,lookbehind:!0}}),Prism.languages.markup&#x26;&#x26;Prism.languages.insertBefore(&#x22;markup&#x22;,&#x22;tag&#x22;,{script:{pattern:/&#x3c;script[\w\W]*?&#x3e;[\w\W]*?&#x3c;\/script&#x3e;/gi,inside:{tag:{pattern:/&#x3c;script[\w\W]*?&#x3e;|&#x3c;\/script&#x3e;/gi,inside:Prism.languages.markup.tag.inside},rest:Prism.languages.javascript},alias:&#x22;language-javascript&#x22;}});;
+Prism.languages.scss=Prism.languages.extend(&#x22;css&#x22;,{comment:{pattern:/(^|[^\\])(\/\*[\w\W]*?\*\/|\/\/.*?(\r?\n|$))/g,lookbehind
+:!0},atrule:/@[\w-]+(?=\s+(\(|\{|;))/gi,url:/([-a-z]+-)*url(?=\()/gi,selector:/([^@;\{\}\(\)]?([^@;\{\}\(\)]|&#x26;|\#\{\$[-_\w]+\})+)(?=\s*\{(\}|\s|[^\}]+(:|\{)[^\}]+))/gm}),Prism.languages.insertBefore(&#x22;scss&#x22;,&#x22;atrule&#x22;,{keyword:/@(if|else if|else|for|each|while|import|extend|debug|warn|mixin|include|function|return|content)|(?=@for\s+\$[-_\w]+\s)+from/i}),Prism.languages.insertBefore(&#x22;scss&#x22;,&#x22;property&#x22;,{variable:/((\$[-_\w]+)|(#\{\$[-_\w]+\}))/i}),Prism.languages.insertBefore(&#x22;scss&#x22;,&#x22;ignore&#x22;,{placeholder:/%[-_\w]+/i,statement:/\B!(default|optional)\b/gi,&#x22;boolean&#x22;:/\b(true|false)\b/g,&#x22;null&#x22;:/\b(null)\b/g,operator:/\s+([-+]{1,2}|={1,2}|!=|\|?\||\?|\*|\/|\%)\s+/g});;
+Prism.languages.bash=Prism.languages.extend(&#x22;clike&#x22;,{comment:{pattern:/(^|[^&#x22;{\\])(#.*?(\r?\n|$))/g,lookbehind:!0
+},string:{pattern:/(&#x22;|&#x27;)(\\?[\s\S])*?\1/g,inside:{property:/\$([a-zA-Z0-9_#\?\-\*!@]+|\{[^\}]+\})/g}},keyword:/\b(if|then|else|elif|fi|for|break|continue|while|in|case|function|select|do|done|until|echo|exit|return|set|declare)\b/g}),Prism.languages.insertBefore(&#x22;bash&#x22;,&#x22;keyword&#x22;,{property:/\$([a-zA-Z0-9_#\?\-\*!@]+|\{[^}]+\})/g}),Prism.languages.insertBefore(&#x22;bash&#x22;,&#x22;comment&#x22;,{important:/(^#!\s*\/bin\/bash)|(^#!\s*\/bin\/sh)/g});;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.materialize-css.prism.highlightAll" id="apidoc.element.materialize-css.prism.highlightAll">
+        function <span class="apidocSignatureSpan">materialize-css.prism.</span>highlightAll
+        <span class="apidocSignatureSpan">(e, n)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">highlightAll = function (e, n){for(var a,r=document.querySelectorAll(&#x27;code[class*=&#x22;language-&#x22;], [class*=&#x22;language-&#x22;] code, code[class*=&#x22;lang-&#x22;], [
+class*=&#x22;lang-&#x22;] code&#x27;),i=0;a=r[i++];)t.highlightElement(a,e===!0,n)}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.materialize-css.prism.highlightElement" id="apidoc.element.materialize-css.prism.highlightElement">
+        function <span class="apidocSignatureSpan">materialize-css.prism.</span>highlightElement
+        <span class="apidocSignatureSpan">(a, r, i)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">highlightElement = function (a, r, i){for(var l,s,o=a;o&#x26;&#x26;!e.test(o.className);)o=o.parentNode;if(o&#x26;&#x26;(l=(o.className.match(e)||[,&#x22;&#x22;])[1],s=t.languages
+[l]),s){a.className=a.className.replace(e,&#x22;&#x22;).replace(/\s+/g,&#x22; &#x22;)+&#x22; language-&#x22;+l,o=a.parentNode,/pre/i.test(o.nodeName)&#x26;&#x26;(o.className=o.className.replace(e,&#x22;&#x22;).replace(/\s+/g,&#x22; &#x22;)+&#x22; language-&#x22;+l);var g=a.textContent;if(g){var u={element:a,language:l,grammar:s,code:g};if(t.hooks.run(&#x22;before-highlight&#x22;,u),r&#x26;&#x26;self.Worker){var c=new Worker(t.filename);c.onmessage=function(e){u.highlightedCode=n.stringify(JSON.parse(e.data),l),t.hooks.run(&#x22;before-insert&#x22;,u),u.element.innerHTML=u.highlightedCode,i&#x26;&#x26;i.call(u.element),t.hooks.run(&#x22;after-highlight&#x22;,u)},c.postMessage(JSON.stringify({language:u.language,code:u.code}))}else u.highlightedCode=t.highlight(u.code,u.grammar,u.language),t.hooks.run(&#x22;before-insert&#x22;,u),u.element.innerHTML=u.highlightedCode,i&#x26;&#x26;i.call(a),t.hooks.run(&#x22;after-highlight&#x22;,u)}}}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+
+
+
+
+/* http://prismjs.com/download.html?themes=prism&#x26;languages=markup+css+clike+javascript+scss+bash */
+self=&#x22;undefined&#x22;!=typeof window?window:&#x22;undefined&#x22;!=typeof WorkerGlobalScope&#x26;&#x26;self instanceof WorkerGlobalScope
+?self:{};var Prism=function(){var e=/\blang(?:uage)?-(?!\*)(\w+)\b/i,t=self.Prism={util:{encode:function(e){return e instanceof n?new n(e.type,t.util.encode(e.content),e.alias):&#x22;Array&#x22;===t.util.type(e)?e.map(t.util.encode):e.replace(/&#x26;/g,&#x22;&#x26;amp;&#x22;).replace(/&#x3c;/g,&#x22;&#x26;lt;&#x22;).replace(/\u00a0/g,&#x22; &#x22;)},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},clone:function(e){var n=t.util.type(e);switch(n){case&#x22;Object&#x22;:var a={};for(var r in e)e.hasOwnProperty(r)&#x26;&#x26;(a[r]=t.util.clone(e[r]));return a;case&#x22;Array&#x22;:return e.slice()}return e}},languages:{extend:function(e,n){var a=t.util.clone(t.languages[e]);for(var r in n)a[r]=n[r];return a},insertBefore:function(e,n,a,r){r=r||t.languages;var i=r[e];if(2==arguments.length){a=arguments[1];for(var l in a)a.hasOwnProperty(l)&#x26;&#x26;(i[l]=a[l]);return i}var s={};for(var o in i)if(i.hasOwnProperty(o)){if(o==n)for(var l in a)a.hasOwnProperty(l)&#x26;&#x26;(s[l]=a[l]);s[o]=i[o]}return t.languages.DFS(t.languages,function(t,n){n===r[e]&#x26;&#x26;t!=e&#x26;&#x26;(this[t]=s)}),r[e]=s},DFS:function(e,n,a){for(var r in e)e.hasOwnProperty(r)&#x26;&#x26;(n.call(e,r,e[r],a||r),&#x22;Object&#x22;===t.util.type(e[r])?t.languages.DFS(e[r],n):&#x22;Array&#x22;===t.util.type(e[r])&#x26;&#x26;t.languages.DFS(e[r],n,r))}},highlightAll:function(e,n){for(var a,r=document.querySelectorAll(&#x27;code[class*=&#x22;language-&#x22;], [class*=&#x22;language-&#x22;] code, code[class*=&#x22;lang-&#x22;], [class*=&#x22;lang-&#x22;] code&#x27;),i=0;a=r[i++];)t.<span class="apidocCodeKeywordSpan">highlightElement</span>(a,e===!0,n)},highlightElement:function(a,r,i){for(var l,s,o=a;o&#x26;&#x26;!e.test(o.className);)o=o.parentNode;if(o&#x26;&#x26;(l=(o.className.match(e)||[,&#x22;&#x22;])[1],s=t.languages[l]),s){a.className=a.className.replace(e,&#x22;&#x22;).replace(/\s+/g,&#x22; &#x22;)+&#x22; language-&#x22;+l,o=a.parentNode,/pre/i.test(o.nodeName)&#x26;&#x26;(o.className=o.className.replace(e,&#x22;&#x22;).replace(/\s+/g,&#x22; &#x22;)+&#x22; language-&#x22;+l);var g=a.textContent;if(g){var u={element:a,language:l,grammar:s,code:g};if(t.hooks.run(&#x22;before-highlight&#x22;,u),r&#x26;&#x26;self.Worker){var c=new Worker(t.filename);c.onmessage=function(e){u.highlightedCode=n.stringify(JSON.parse(e.data),l),t.hooks.run(&#x22;before-insert&#x22;,u),u.element.innerHTML=u.highlightedCode,i&#x26;&#x26;i.call(u.element),t.hooks.run(&#x22;after-highlight&#x22;,u)},c.postMessage(JSON.stringify({language:u.language,code:u.code}))}else u.highlightedCode=t.highlight(u.code,u.grammar,u.language),t.hooks.run(&#x22;before-insert&#x22;,u),u.element.innerHTML=u.highlightedCode,i&#x26;&#x26;i.call(a),t.hooks.run(&#x22;after-highlight&#x22;,u)}}},highlight:function(e,a,r){var i=t.tokenize(e,a);return n.stringify(t.util.encode(i),r)},tokenize:function(e,n){var a=t.Token,r=[e],i=n.rest;if(i){for(var l in i)n[l]=i[l];delete n.rest}e:for(var l in n)if(n.hasOwnProperty(l)&#x26;&#x26;n[l]){var s=n[l];s=&#x22;Array&#x22;===t.util.type(s)?s:[s];for(var o=0;o&#x3c;s.length;++o){var g=s[o],u=g.inside,c=!!g.lookbehind,f=0,h=g.alias;g=g.pattern||g;for(var p=0;p&#x3c;r.length;p++){var d=r[p];if(r.length&#x3e;e.length)break e;if(!(d instanceof a)){g.lastIndex=0;var m=g.exec(d);if(m){c&#x26;&#x26;(f=m[1].length);var y=m.index-1+f,m=m[0].slice(f),v=m.length,k=y+v,b=d.slice(0,y+1),w=d.slice(k+1),O=[p,1];b&#x26;&#x26;O.push(b);var N=new a(l,u?t.tokenize(m,u):m,h);O.push(N),w&#x26;&#x26;O.push(w),Array.prototype.splice.apply(r,O)}}}}}return r},hooks:{all:{},add:function(e,n){var a=t.hooks.all;a[e]=a[e]||[],a[e].push(n)},run:function(e,n){var a=t.hooks.all[e];if(a&#x26;&#x26;a.length)for(var r,i=0;r=a[i++];)r(n)}}},n=t.Token=function(e,t,n){this.type=e,this.content=t,this.alias=n};if(n.stringify=function(e,a,r){if(&#x22;string&#x22;==typeof e)return e;if(&#x22;[object Array]&#x22;==Object.prototype.toString.call(e))return e.map(function(t){return n.stringify(t,a,e)}).join(&#x22;&#x22;);var i={type:e.type,content:n.stringify(e.content,a,r),tag:&#x22;span&#x22;,classes:[&#x22;token&#x22;,e.type],attributes:{},language:a,parent:r};if(&#x22;comment&#x22;==i.type&#x26;&#x26;(i.attributes.spellcheck=&#x22;true&#x22;),e.alias){var l=&#x22;Array&#x22;===t.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(i.classes,l)}t.hooks.run(&#x22;wrap&#x22;,i);var s=&#x22;&#x22;;for(var o in i.attributes)s+=o+&#x27;=&#x22;&#x27;+(i.attributes[o]||&#x22;&#x22;)+&#x27;&#x22;&#x27;;return&#x22;&#x3c;&#x22;+i.tag+&#x27; class=&#x22;&#x27;+i.classes.join(&#x22; &#x22;)+&#x27;&#x22; &#x27;+s+&#x22;&#x3e;&#x22;+i.content+&#x22;&#x3c;/&#x22;+i.tag+&#x22;&#x3e;&#x22;},!self.document)return self.addEventListener?(self.addEventListener(&#x22;message&#x22;,function(e){var n=JSON.parse(e.data),a=n.language,r=n.code;self.postMessage(JSON.stringify(t.util.encode(t.tokenize(r,t.languages[a])))),self.close()},!1),self.Prism):self.Prism;var a=document.getElementsByTagName(&#x22;script&#x22;);return a=a[a.length-1],a&#x26;&#x26;(t.filename=a.src,document.addEventListener&#x26;&#x26;!a.hasAttribute(&#x22;data-manual&#x22;)&#x26;&#x26;document.addEventListener(&#x22;DOMContentLoaded&#x22;,t.highlightAll)),self.Prism}();&#x22;undefined&#x22;!=typeof module&#x26;&#x26;module.exports&#x26;&#x26;(module.exports=Prism);;
+Prism.languages.markup={comment:/&#x3c;!--[\w\W]*?--&#x3e;/g,prolog:/&#x3c;\?.+?\?&#x3e;/,doctype:/&#x3c;!DOCTYPE.+?&#x3e;/,cdata
+:/&#x3c;!\[CDATA\[[\w\W]*?]]&#x3e;/i,tag:{pattern:/&#x3c;\/?[\w:-]+\s*(?:\s+[\w:-]+(?:=(?:(&#x22;|&#x27;)(\\?[\w\W])*?\1|[^\s&#x27;&#x22;&#x3e;=]+))?\s*)*\/?&#x3e;/gi,inside:{tag:{pattern:/^&#x3c;\/?[\w:-]+/i,inside:{punctuation:/^&#x3c;\/?/,namespace:/^[\w-]+?:/}},&#x22;attr-value&#x22;:{pattern:/=(?:(&#x27;|&#x22;)[\w\W]*?(\1)|[^\s&#x3e;]+)/gi,inside:{punctuation:/=|&#x3e;|&#x22;/g}},punctuation:/\/?&#x3e;/g,&#x22;attr-name&#x22;:{pattern:/[\w:-]+/g,inside:{namespace:/^[\w-]+?:/}}}},entity:/\&#x26;#?[\da-z]{1,8};/gi},Prism.hooks.add(&#x22;wrap&#x22;,function(t){&#x22;entity&#x22;===t.type&#x26;&#x26;(t.attributes.title=t.content.replace(/&#x26;amp;/,&#x22;&#x26;&#x22;))});;
+Prism.languages.css={comment:/\/\*[\w\W]*?\*\//g,atrule:{pattern:/@[\w-]+?.*?(;|(?=\s*{))/gi,inside:{punctuation:/[;:]/g}},url:/
+url\(([&#x22;&#x27;]?).*?\1\)/gi,selector:/[^\{\}\s][^\{\};]*(?=\s*\{)/g,property:/(\b|\B)[\w-]+(?=\s*:)/gi,string:/(&#x22;|&#x27;)(\\?.)*?\1/g,important:/\B!important\b/gi,punctuation:/[\{\};:]/g,&#x22;function&#x22;:/[-a-z0-9]+(?=\()/gi},Prism.languages.markup&#x26;&#x26;(Prism.languages.insertBefore(&#x22;markup&#x22;,&#x22;tag&#x22;,{style:{pattern:/&#x3c;style[\w\W]*?&#x3e;[\w\W]*?&#x3c;\/style&#x3e;/gi,inside:{tag:{pattern:/&#x3c;style[\w\W]*?&#x3e;|&#x3c;\/style&#x3e;/gi,inside:Prism.languages.markup.tag.inside},rest:Prism.languages.css},alias:&#x22;language-css&#x22;}}),Prism.languages.insertBefore(&#x22;inside&#x22;,&#x22;attr-value&#x22;,{&#x22;style-attr&#x22;:{pattern:/\s*style=(&#x22;|&#x27;).+?\1/gi,inside:{&#x22;attr-name&#x22;:{pattern:/^\s*style/gi,inside:Prism.languages.markup.tag.inside},punctuation:/^\s*=\s*[&#x27;&#x22;]|[&#x27;&#x22;]\s*$/,&#x22;attr-value&#x22;:{pattern:/.+/gi,inside:Prism.languages.css}},alias:&#x22;language-css&#x22;}},Prism.languages.markup.tag));;
+Prism.languages.clike={comment:[{pattern:/(^|[^\\])\/\*[\w\W]*?\*\//g,lookbehind:!0},{pattern:/(^|[^\\:])\/\/.*?(\r?\n|$)/g,lookbehind
+:!0}],string:/(&#x22;|&#x27;)(\\?.)*?\1/g,&#x22;class-name&#x22;:{pattern:/((?:(?:class|interface|extends|implements|trait|instanceof|new)\s+)|(?:catch\s+\())[a-z0-9_\.\\]+/gi,lookbehind:!0,inside:{punctuation:/(\.|\\)/}},keyword:/\b(if|else|while|do|for|return|in|instanceof|function|new|try|throw|catch|finally|null|break|continue)\b/g,&#x22;boolean&#x22;:/\b(true|false)\b/g,&#x22;function&#x22;:{pattern:/[a-z0-9_]+\(/gi,inside:{punctuation:/\(/}},number:/\b-?(0x[\dA-Fa-f]+|\d*\.?\d+([Ee]-?\d+)?)\b/g,operator:/[-+]{1,2}|!|&#x3c;=?|&#x3e;=?|={1,3}|&#x26;{1,2}|\|?\||\?|\*|\/|\~|\^|\%/g,ignore:/&#x26;(lt|gt|amp);/gi,punctuation:/[{}[\];(),.:]/g};;
+Prism.languages.javascript=Prism.languages.extend(&#x22;clike&#x22;,{keyword:/\b(break|case|catch|class|const|continue|debugger|
+default|delete|do|else|enum|export|extends|false|finally|for|function|get|if|implements|import|in|instanceof|interface|let|new|null
+|package|private|protected|public|return|set|static|super|switch|this|throw|true|try|typeof|var|void|while|with|yield)\b/g,number:/\b-?(0x[\dA-Fa-f]+|\d*\.?\d+([Ee][+-]?\d+)?|NaN|-?Infinity)\b/g,&#x22;function&#x22;:/(?!\d)[a-z0-9_$]+(?=\()/gi}),Prism.languages.insertBefore(&#x22;javascript&#x22;,&#x22;keyword&#x22;,{regex:{pattern:/(^|[^/])\/(?!\/)(\[.+?]|\\.|[^/\r\n])+\/[gim]{0,3}(?=\s*($|[\r\n,.;})]))/g,lookbehind:!0}}),Prism.languages.markup&#x26;&#x26;Prism.languages.insertBefore(&#x22;markup&#x22;,&#x22;tag&#x22;,{script:{pattern:/&#x3c;script[\w\W]*?&#x3e;[\w\W]*?&#x3c;\/script&#x3e;/gi,inside:{tag:{pattern:/&#x3c;script[\w\W]*?&#x3e;|&#x3c;\/script&#x3e;/gi,inside:Prism.languages.markup.tag.inside},rest:Prism.languages.javascript},alias:&#x22;language-javascript&#x22;}});;
+Prism.languages.scss=Prism.languages.extend(&#x22;css&#x22;,{comment:{pattern:/(^|[^\\])(\/\*[\w\W]*?\*\/|\/\/.*?(\r?\n|$))/g,lookbehind
+:!0},atrule:/@[\w-]+(?=\s+(\(|\{|;))/gi,url:/([-a-z]+-)*url(?=\()/gi,selector:/([^@;\{\}\(\)]?([^@;\{\}\(\)]|&#x26;|\#\{\$[-_\w]+\})+)(?=\s*\{(\}|\s|[^\}]+(:|\{)[^\}]+))/gm}),Prism.languages.insertBefore(&#x22;scss&#x22;,&#x22;atrule&#x22;,{keyword:/@(if|else if|else|for|each|while|import|extend|debug|warn|mixin|include|function|return|content)|(?=@for\s+\$[-_\w]+\s)+from/i}),Prism.languages.insertBefore(&#x22;scss&#x22;,&#x22;property&#x22;,{variable:/((\$[-_\w]+)|(#\{\$[-_\w]+\}))/i}),Prism.languages.insertBefore(&#x22;scss&#x22;,&#x22;ignore&#x22;,{placeholder:/%[-_\w]+/i,statement:/\B!(default|optional)\b/gi,&#x22;boolean&#x22;:/\b(true|false)\b/g,&#x22;null&#x22;:/\b(null)\b/g,operator:/\s+([-+]{1,2}|={1,2}|!=|\|?\||\?|\*|\/|\%)\s+/g});;
+Prism.languages.bash=Prism.languages.extend(&#x22;clike&#x22;,{comment:{pattern:/(^|[^&#x22;{\\])(#.*?(\r?\n|$))/g,lookbehind:!0
+},string:{pattern:/(&#x22;|&#x27;)(\\?[\s\S])*?\1/g,inside:{property:/\$([a-zA-Z0-9_#\?\-\*!@]+|\{[^\}]+\})/g}},keyword:/\b(if|then|else|elif|fi|for|break|continue|while|in|case|function|select|do|done|until|echo|exit|return|set|declare)\b/g}),Prism.languages.insertBefore(&#x22;bash&#x22;,&#x22;keyword&#x22;,{property:/\$([a-zA-Z0-9_#\?\-\*!@]+|\{[^}]+\})/g}),Prism.languages.insertBefore(&#x22;bash&#x22;,&#x22;comment&#x22;,{important:/(^#!\s*\/bin\/bash)|(^#!\s*\/bin\/sh)/g});;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.materialize-css.prism.tokenize" id="apidoc.element.materialize-css.prism.tokenize">
+        function <span class="apidocSignatureSpan">materialize-css.prism.</span>tokenize
+        <span class="apidocSignatureSpan">(e, n)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">tokenize = function (e, n){var a=t.Token,r=[e],i=n.rest;if(i){for(var l in i)n[l]=i[l];delete n.rest}e:for(var l in n)if(n.hasOwnProperty(l)&#x26;&#x26;
+n[l]){var s=n[l];s=&#x22;Array&#x22;===t.util.type(s)?s:[s];for(var o=0;o&#x3c;s.length;++o){var g=s[o],u=g.inside,c=!!g.lookbehind,f=0,h=g.alias
+;g=g.pattern||g;for(var p=0;p&#x3c;r.length;p++){var d=r[p];if(r.length&#x3e;e.length)break e;if(!(d instanceof a)){g.lastIndex=0;var m=g.
+exec(d);if(m){c&#x26;&#x26;(f=m[1].length);var y=m.index-1+f,m=m[0].slice(f),v=m.length,k=y+v,b=d.slice(0,y+1),w=d.slice(k+1),O=[p,1];b&#x26;&#x26;O
+.push(b);var N=new a(l,u?t.tokenize(m,u):m,h);O.push(N),w&#x26;&#x26;O.push(w),Array.prototype.splice.apply(r,O)}}}}}return r}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+
+
+
+
+/* http://prismjs.com/download.html?themes=prism&#x26;languages=markup+css+clike+javascript+scss+bash */
+self=&#x22;undefined&#x22;!=typeof window?window:&#x22;undefined&#x22;!=typeof WorkerGlobalScope&#x26;&#x26;self instanceof WorkerGlobalScope
+?self:{};var Prism=function(){var e=/\blang(?:uage)?-(?!\*)(\w+)\b/i,t=self.Prism={util:{encode:function(e){return e instanceof n?new n(e.type,t.util.encode(e.content),e.alias):&#x22;Array&#x22;===t.util.type(e)?e.map(t.util.encode):e.replace(/&#x26;/g,&#x22;&#x26;amp;&#x22;).replace(/&#x3c;/g,&#x22;&#x26;lt;&#x22;).replace(/\u00a0/g,&#x22; &#x22;)},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},clone:function(e){var n=t.util.type(e);switch(n){case&#x22;Object&#x22;:var a={};for(var r in e)e.hasOwnProperty(r)&#x26;&#x26;(a[r]=t.util.clone(e[r]));return a;case&#x22;Array&#x22;:return e.slice()}return e}},languages:{extend:function(e,n){var a=t.util.clone(t.languages[e]);for(var r in n)a[r]=n[r];return a},insertBefore:function(e,n,a,r){r=r||t.languages;var i=r[e];if(2==arguments.length){a=arguments[1];for(var l in a)a.hasOwnProperty(l)&#x26;&#x26;(i[l]=a[l]);return i}var s={};for(var o in i)if(i.hasOwnProperty(o)){if(o==n)for(var l in a)a.hasOwnProperty(l)&#x26;&#x26;(s[l]=a[l]);s[o]=i[o]}return t.languages.DFS(t.languages,function(t,n){n===r[e]&#x26;&#x26;t!=e&#x26;&#x26;(this[t]=s)}),r[e]=s},DFS:function(e,n,a){for(var r in e)e.hasOwnProperty(r)&#x26;&#x26;(n.call(e,r,e[r],a||r),&#x22;Object&#x22;===t.util.type(e[r])?t.languages.DFS(e[r],n):&#x22;Array&#x22;===t.util.type(e[r])&#x26;&#x26;t.languages.DFS(e[r],n,r))}},highlightAll:function(e,n){for(var a,r=document.querySelectorAll(&#x27;code[class*=&#x22;language-&#x22;], [class*=&#x22;language-&#x22;] code, code[class*=&#x22;lang-&#x22;], [class*=&#x22;lang-&#x22;] code&#x27;),i=0;a=r[i++];)t.highlightElement(a,e===!0,n)},highlightElement:function(a,r,i){for(var l,s,o=a;o&#x26;&#x26;!e.test(o.className);)o=o.parentNode;if(o&#x26;&#x26;(l=(o.className.match(e)||[,&#x22;&#x22;])[1],s=t.languages[l]),s){a.className=a.className.replace(e,&#x22;&#x22;).replace(/\s+/g,&#x22; &#x22;)+&#x22; language-&#x22;+l,o=a.parentNode,/pre/i.test(o.nodeName)&#x26;&#x26;(o.className=o.className.replace(e,&#x22;&#x22;).replace(/\s+/g,&#x22; &#x22;)+&#x22; language-&#x22;+l);var g=a.textContent;if(g){var u={element:a,language:l,grammar:s,code:g};if(t.hooks.run(&#x22;before-highlight&#x22;,u),r&#x26;&#x26;self.Worker){var c=new Worker(t.filename);c.onmessage=function(e){u.highlightedCode=n.stringify(JSON.parse(e.data),l),t.hooks.run(&#x22;before-insert&#x22;,u),u.element.innerHTML=u.highlightedCode,i&#x26;&#x26;i.call(u.element),t.hooks.run(&#x22;after-highlight&#x22;,u)},c.postMessage(JSON.stringify({language:u.language,code:u.code}))}else u.highlightedCode=t.highlight(u.code,u.grammar,u.language),t.hooks.run(&#x22;before-insert&#x22;,u),u.element.innerHTML=u.highlightedCode,i&#x26;&#x26;i.call(a),t.hooks.run(&#x22;after-highlight&#x22;,u)}}},highlight:function(e,a,r){var i=t.<span class="apidocCodeKeywordSpan">tokenize</span>(e,a);return n.stringify(t.util.encode(i),r)},tokenize:function(e,n){var a=t.Token,r=[e],i=n.rest;if(i){for(var l in i)n[l]=i[l];delete n.rest}e:for(var l in n)if(n.hasOwnProperty(l)&#x26;&#x26;n[l]){var s=n[l];s=&#x22;Array&#x22;===t.util.type(s)?s:[s];for(var o=0;o&#x3c;s.length;++o){var g=s[o],u=g.inside,c=!!g.lookbehind,f=0,h=g.alias;g=g.pattern||g;for(var p=0;p&#x3c;r.length;p++){var d=r[p];if(r.length&#x3e;e.length)break e;if(!(d instanceof a)){g.lastIndex=0;var m=g.exec(d);if(m){c&#x26;&#x26;(f=m[1].length);var y=m.index-1+f,m=m[0].slice(f),v=m.length,k=y+v,b=d.slice(0,y+1),w=d.slice(k+1),O=[p,1];b&#x26;&#x26;O.push(b);var N=new a(l,u?t.tokenize(m,u):m,h);O.push(N),w&#x26;&#x26;O.push(w),Array.prototype.splice.apply(r,O)}}}}}return r},hooks:{all:{},add:function(e,n){var a=t.hooks.all;a[e]=a[e]||[],a[e].push(n)},run:function(e,n){var a=t.hooks.all[e];if(a&#x26;&#x26;a.length)for(var r,i=0;r=a[i++];)r(n)}}},n=t.Token=function(e,t,n){this.type=e,this.content=t,this.alias=n};if(n.stringify=function(e,a,r){if(&#x22;string&#x22;==typeof e)return e;if(&#x22;[object Array]&#x22;==Object.prototype.toString.call(e))return e.map(function(t){return n.stringify(t,a,e)}).join(&#x22;&#x22;);var i={type:e.type,content:n.stringify(e.content,a,r),tag:&#x22;span&#x22;,classes:[&#x22;token&#x22;,e.type],attributes:{},language:a,parent:r};if(&#x22;comment&#x22;==i.type&#x26;&#x26;(i.attributes.spellcheck=&#x22;true&#x22;),e.alias){var l=&#x22;Array&#x22;===t.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(i.classes,l)}t.hooks.run(&#x22;wrap&#x22;,i);var s=&#x22;&#x22;;for(var o in i.attributes)s+=o+&#x27;=&#x22;&#x27;+(i.attributes[o]||&#x22;&#x22;)+&#x27;&#x22;&#x27;;return&#x22;&#x3c;&#x22;+i.tag+&#x27; class=&#x22;&#x27;+i.classes.join(&#x22; &#x22;)+&#x27;&#x22; &#x27;+s+&#x22;&#x3e;&#x22;+i.content+&#x22;&#x3c;/&#x22;+i.tag+&#x22;&#x3e;&#x22;},!self.document)return self.addEventListener?(self.addEventListener(&#x22;message&#x22;,function(e){var n=JSON.parse(e.data),a=n.language,r=n.code;self.postMessage(JSON.stringify(t.util.encode(t.tokenize(r,t.languages[a])))),self.close()},!1),self.Prism):self.Prism;var a=document.getElementsByTagName(&#x22;script&#x22;);return a=a[a.length-1],a&#x26;&#x26;(t.filename=a.src,document.addEventListener&#x26;&#x26;!a.hasAttribute(&#x22;data-manual&#x22;)&#x26;&#x26;document.addEventListener(&#x22;DOMContentLoaded&#x22;,t.highlightAll)),self.Prism}();&#x22;undefined&#x22;!=typeof module&#x26;&#x26;module.exports&#x26;&#x26;(module.exports=Prism);;
+Prism.languages.markup={comment:/&#x3c;!--[\w\W]*?--&#x3e;/g,prolog:/&#x3c;\?.+?\?&#x3e;/,doctype:/&#x3c;!DOCTYPE.+?&#x3e;/,cdata
+:/&#x3c;!\[CDATA\[[\w\W]*?]]&#x3e;/i,tag:{pattern:/&#x3c;\/?[\w:-]+\s*(?:\s+[\w:-]+(?:=(?:(&#x22;|&#x27;)(\\?[\w\W])*?\1|[^\s&#x27;&#x22;&#x3e;=]+))?\s*)*\/?&#x3e;/gi,inside:{tag:{pattern:/^&#x3c;\/?[\w:-]+/i,inside:{punctuation:/^&#x3c;\/?/,namespace:/^[\w-]+?:/}},&#x22;attr-value&#x22;:{pattern:/=(?:(&#x27;|&#x22;)[\w\W]*?(\1)|[^\s&#x3e;]+)/gi,inside:{punctuation:/=|&#x3e;|&#x22;/g}},punctuation:/\/?&#x3e;/g,&#x22;attr-name&#x22;:{pattern:/[\w:-]+/g,inside:{namespace:/^[\w-]+?:/}}}},entity:/\&#x26;#?[\da-z]{1,8};/gi},Prism.hooks.add(&#x22;wrap&#x22;,function(t){&#x22;entity&#x22;===t.type&#x26;&#x26;(t.attributes.title=t.content.replace(/&#x26;amp;/,&#x22;&#x26;&#x22;))});;
+Prism.languages.css={comment:/\/\*[\w\W]*?\*\//g,atrule:{pattern:/@[\w-]+?.*?(;|(?=\s*{))/gi,inside:{punctuation:/[;:]/g}},url:/
+url\(([&#x22;&#x27;]?).*?\1\)/gi,selector:/[^\{\}\s][^\{\};]*(?=\s*\{)/g,property:/(\b|\B)[\w-]+(?=\s*:)/gi,string:/(&#x22;|&#x27;)(\\?.)*?\1/g,important:/\B!important\b/gi,punctuation:/[\{\};:]/g,&#x22;function&#x22;:/[-a-z0-9]+(?=\()/gi},Prism.languages.markup&#x26;&#x26;(Prism.languages.insertBefore(&#x22;markup&#x22;,&#x22;tag&#x22;,{style:{pattern:/&#x3c;style[\w\W]*?&#x3e;[\w\W]*?&#x3c;\/style&#x3e;/gi,inside:{tag:{pattern:/&#x3c;style[\w\W]*?&#x3e;|&#x3c;\/style&#x3e;/gi,inside:Prism.languages.markup.tag.inside},rest:Prism.languages.css},alias:&#x22;language-css&#x22;}}),Prism.languages.insertBefore(&#x22;inside&#x22;,&#x22;attr-value&#x22;,{&#x22;style-attr&#x22;:{pattern:/\s*style=(&#x22;|&#x27;).+?\1/gi,inside:{&#x22;attr-name&#x22;:{pattern:/^\s*style/gi,inside:Prism.languages.markup.tag.inside},punctuation:/^\s*=\s*[&#x27;&#x22;]|[&#x27;&#x22;]\s*$/,&#x22;attr-value&#x22;:{pattern:/.+/gi,inside:Prism.languages.css}},alias:&#x22;language-css&#x22;}},Prism.languages.markup.tag));;
+Prism.languages.clike={comment:[{pattern:/(^|[^\\])\/\*[\w\W]*?\*\//g,lookbehind:!0},{pattern:/(^|[^\\:])\/\/.*?(\r?\n|$)/g,lookbehind
+:!0}],string:/(&#x22;|&#x27;)(\\?.)*?\1/g,&#x22;class-name&#x22;:{pattern:/((?:(?:class|interface|extends|implements|trait|instanceof|new)\s+)|(?:catch\s+\())[a-z0-9_\.\\]+/gi,lookbehind:!0,inside:{punctuation:/(\.|\\)/}},keyword:/\b(if|else|while|do|for|return|in|instanceof|function|new|try|throw|catch|finally|null|break|continue)\b/g,&#x22;boolean&#x22;:/\b(true|false)\b/g,&#x22;function&#x22;:{pattern:/[a-z0-9_]+\(/gi,inside:{punctuation:/\(/}},number:/\b-?(0x[\dA-Fa-f]+|\d*\.?\d+([Ee]-?\d+)?)\b/g,operator:/[-+]{1,2}|!|&#x3c;=?|&#x3e;=?|={1,3}|&#x26;{1,2}|\|?\||\?|\*|\/|\~|\^|\%/g,ignore:/&#x26;(lt|gt|amp);/gi,punctuation:/[{}[\];(),.:]/g};;
+Prism.languages.javascript=Prism.languages.extend(&#x22;clike&#x22;,{keyword:/\b(break|case|catch|class|const|continue|debugger|
+default|delete|do|else|enum|export|extends|false|finally|for|function|get|if|implements|import|in|instanceof|interface|let|new|null
+|package|private|protected|public|return|set|static|super|switch|this|throw|true|try|typeof|var|void|while|with|yield)\b/g,number:/\b-?(0x[\dA-Fa-f]+|\d*\.?\d+([Ee][+-]?\d+)?|NaN|-?Infinity)\b/g,&#x22;function&#x22;:/(?!\d)[a-z0-9_$]+(?=\()/gi}),Prism.languages.insertBefore(&#x22;javascript&#x22;,&#x22;keyword&#x22;,{regex:{pattern:/(^|[^/])\/(?!\/)(\[.+?]|\\.|[^/\r\n])+\/[gim]{0,3}(?=\s*($|[\r\n,.;})]))/g,lookbehind:!0}}),Prism.languages.markup&#x26;&#x26;Prism.languages.insertBefore(&#x22;markup&#x22;,&#x22;tag&#x22;,{script:{pattern:/&#x3c;script[\w\W]*?&#x3e;[\w\W]*?&#x3c;\/script&#x3e;/gi,inside:{tag:{pattern:/&#x3c;script[\w\W]*?&#x3e;|&#x3c;\/script&#x3e;/gi,inside:Prism.languages.markup.tag.inside},rest:Prism.languages.javascript},alias:&#x22;language-javascript&#x22;}});;
+Prism.languages.scss=Prism.languages.extend(&#x22;css&#x22;,{comment:{pattern:/(^|[^\\])(\/\*[\w\W]*?\*\/|\/\/.*?(\r?\n|$))/g,lookbehind
+:!0},atrule:/@[\w-]+(?=\s+(\(|\{|;))/gi,url:/([-a-z]+-)*url(?=\()/gi,selector:/([^@;\{\}\(\)]?([^@;\{\}\(\)]|&#x26;|\#\{\$[-_\w]+\})+)(?=\s*\{(\}|\s|[^\}]+(:|\{)[^\}]+))/gm}),Prism.languages.insertBefore(&#x22;scss&#x22;,&#x22;atrule&#x22;,{keyword:/@(if|else if|else|for|each|while|import|extend|debug|warn|mixin|include|function|return|content)|(?=@for\s+\$[-_\w]+\s)+from/i}),Prism.languages.insertBefore(&#x22;scss&#x22;,&#x22;property&#x22;,{variable:/((\$[-_\w]+)|(#\{\$[-_\w]+\}))/i}),Prism.languages.insertBefore(&#x22;scss&#x22;,&#x22;ignore&#x22;,{placeholder:/%[-_\w]+/i,statement:/\B!(default|optional)\b/gi,&#x22;boolean&#x22;:/\b(true|false)\b/g,&#x22;null&#x22;:/\b(null)\b/g,operator:/\s+([-+]{1,2}|={1,2}|!=|\|?\||\?|\*|\/|\%)\s+/g});;
+Prism.languages.bash=Prism.languages.extend(&#x22;clike&#x22;,{comment:{pattern:/(^|[^&#x22;{\\])(#.*?(\r?\n|$))/g,lookbehind:!0
+},string:{pattern:/(&#x22;|&#x27;)(\\?[\s\S])*?\1/g,inside:{property:/\$([a-zA-Z0-9_#\?\-\*!@]+|\{[^\}]+\})/g}},keyword:/\b(if|then|else|elif|fi|for|break|continue|while|in|case|function|select|do|done|until|echo|exit|return|set|declare)\b/g}),Prism.languages.insertBefore(&#x22;bash&#x22;,&#x22;keyword&#x22;,{property:/\$([a-zA-Z0-9_#\?\-\*!@]+|\{[^}]+\})/g}),Prism.languages.insertBefore(&#x22;bash&#x22;,&#x22;comment&#x22;,{important:/(^#!\s*\/bin\/bash)|(^#!\s*\/bin\/sh)/g});;
+...</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
